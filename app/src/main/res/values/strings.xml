@@ -1,0 +1,55 @@
+<resources>
+    <string name="facebook_app_id">2174670739225123</string>
+    <string name="fb_login_protocol_scheme">fb2174670739225123</string>
+
+    <string name="app_name">Sfax Autobus</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="route">Route</string>
+    <string name="lines">Lines</string>
+    <string name="schedule">Schedule</string>
+    <string name="myspace">MySpace</string>
+    <string name="menu">Menu</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+
+    <string name="home_fragment">Home Fragment</string>
+    <string name="route_fragment">Route Fragment</string>
+    <string name="lines_fragment">Lines Fragment</string>
+    <string name="schedule_fragment">Schedule Fragment</string>
+    <string name="my_space_fragment">MySpace Fragment</string>
+    <string name="choose_a_bus_line">Choose a bus line:</string>
+    <string name="choose_a_day">Choose a day:</string>
+    <string name="number">Number</string>
+    <string name="departure_time">Departure Time</string>
+    <string name="arrival_time">Arrival Time</string>
+    <string name="departure_station">Departure Station</string>
+    <string name="arrival_station">Arrival Station</string>
+    <string name="error_location_provider">ERROR !!</string>
+    <string name="firebase_error_login">User not found !</string>
+    <string name="cancel_login">Registration unsuccessful !</string>
+    <string name="error_login">Registration Error !</string>
+
+    <string-array name="days_spinner">
+        <item>-- Select a day --</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="lines_spinner">
+        <item>-- Select a line --</item>
+        <item>Line 1</item>
+        <item>Line 2</item>
+    </string-array>
+
+</resources>

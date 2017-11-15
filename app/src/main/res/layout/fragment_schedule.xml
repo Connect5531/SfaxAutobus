@@ -1,0 +1,69 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.houcemhariz.sfaxautobus.ui.fragments.ScheduleFragment"
+    android:paddingTop="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/lines_spinner_schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:entries="@array/lines_spinner"
+            android:padding="10dp"
+            android:textAlignment="center">
+
+        </Spinner>
+
+
+        <Spinner
+            android:id="@+id/days_spinner_schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:entries="@array/days_spinner"
+            android:padding="10dp"
+            android:textAlignment="center">
+
+        </Spinner>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idTable" android:weightSum="5"
+            android:background="@android:color/darker_gray">
+            <TableRow>
+                <TextView android:text="@string/number" android:layout_column="0"
+                    android:padding="5dp" android:layout_weight="1" android:layout_width="0dp"/>
+                <TextView android:text="@string/departure_time" android:layout_column="1"
+                    android:padding="5dp" android:layout_weight="1" android:layout_width="0dp"/>
+                <TextView android:text="@string/arrival_time"  android:layout_column="2"
+                    android:padding="5dp" android:layout_weight="1" android:layout_width="0dp"/>
+                <TextView android:text="@string/departure_station"  android:layout_column="3"
+                    android:padding="5dp" android:layout_weight="1" android:layout_width="0dp"/>
+                <TextView android:text="@string/arrival_station" android:layout_column="4"
+                    android:padding="5dp" android:layout_weight="1" android:layout_width="0dp"/>
+
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
+</ScrollView>

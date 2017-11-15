@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "659389727500",
+    "firebase_url": "https://sfax-autobus-1508441197032.firebaseio.com",
+    "project_id": "sfax-autobus-1508441197032",
+    "storage_bucket": "sfax-autobus-1508441197032.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659389727500:android:d37e78be4ab5bf5c",
+        "android_client_info": {
+          "package_name": "com.houcemhariz.sfaxautobus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659389727500-o8h010ih30eac2t8ofbl9uf1mpgbumtc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7fOUxM0OXG1vWrKqiI_-AxMEFjTeawLs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
